@@ -1,0 +1,2213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_797d21b1d55652c995f73f8234b99bb2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_797d21b1d55652c995f73f8234b99bb2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_797d21b1d55652c995f73f8234b99bb2 = L.map(
+                "map_797d21b1d55652c995f73f8234b99bb2",
+                {
+                    center: [10.96, 78.076],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cb52530f24b0e20fc9d60840211f7e6e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cb52530f24b0e20fc9d60840211f7e6e.addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var marker_ce6a1509e1d46a9a088a40fd251904cb = L.marker(
+                [10.9612502, 78.0642685],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_15642d8ccfa4b41f46ad14d8159bfdb6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3325d7d1ced2c95a568d11a2efcc297b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df0b08c342572f25cb14e9c250550675 = $(`<div id="html_df0b08c342572f25cb14e9c250550675" style="width: 100.0%; height: 100.0%;">     <b>The Residency</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_3325d7d1ced2c95a568d11a2efcc297b.setContent(html_df0b08c342572f25cb14e9c250550675);
+            
+        
+
+        marker_ce6a1509e1d46a9a088a40fd251904cb.bindPopup(popup_3325d7d1ced2c95a568d11a2efcc297b)
+        ;
+
+        
+    
+    
+            marker_ce6a1509e1d46a9a088a40fd251904cb.bindTooltip(
+                `<div>
+                     The Residency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ce6a1509e1d46a9a088a40fd251904cb.setIcon(icon_15642d8ccfa4b41f46ad14d8159bfdb6);
+            
+    
+            var marker_72a72757212d02f05aebbac61f758293 = L.marker(
+                [10.9244594, 78.0483319],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_fad5de89db2e986154bf0b455ad97d15 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a37755cb4f617b6bacb7f638d0db7511 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2d8d5eff1e1b8d9333275f7fe243d17 = $(`<div id="html_c2d8d5eff1e1b8d9333275f7fe243d17" style="width: 100.0%; height: 100.0%;">     <b>Hotel Ammaiiyappar</b><br>     Category: restaurant<br>     Cuisine: indian<br>     Phone: Not available     </div>`)[0];
+                popup_a37755cb4f617b6bacb7f638d0db7511.setContent(html_c2d8d5eff1e1b8d9333275f7fe243d17);
+            
+        
+
+        marker_72a72757212d02f05aebbac61f758293.bindPopup(popup_a37755cb4f617b6bacb7f638d0db7511)
+        ;
+
+        
+    
+    
+            marker_72a72757212d02f05aebbac61f758293.bindTooltip(
+                `<div>
+                     Hotel Ammaiiyappar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_72a72757212d02f05aebbac61f758293.setIcon(icon_fad5de89db2e986154bf0b455ad97d15);
+            
+    
+            var marker_cf46168dbb081c069cd52fc2ce5132a7 = L.marker(
+                [10.8519789, 77.8472216],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_13724b9b7415fda32233c242a2c688fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e7b1e2e77b393f9f0f3fbbc700ee9c2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_250cf3fd7176fc205406d0e7a5d1851c = $(`<div id="html_250cf3fd7176fc205406d0e7a5d1851c" style="width: 100.0%; height: 100.0%;">     <b>Makkal Unavagam</b><br>     Category: restaurant<br>     Cuisine: indian<br>     Phone: 9443135150     </div>`)[0];
+                popup_e7b1e2e77b393f9f0f3fbbc700ee9c2a.setContent(html_250cf3fd7176fc205406d0e7a5d1851c);
+            
+        
+
+        marker_cf46168dbb081c069cd52fc2ce5132a7.bindPopup(popup_e7b1e2e77b393f9f0f3fbbc700ee9c2a)
+        ;
+
+        
+    
+    
+            marker_cf46168dbb081c069cd52fc2ce5132a7.bindTooltip(
+                `<div>
+                     Makkal Unavagam
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cf46168dbb081c069cd52fc2ce5132a7.setIcon(icon_13724b9b7415fda32233c242a2c688fe);
+            
+    
+            var marker_0c41fd581e2ed778f175525363f26681 = L.marker(
+                [10.6991807, 77.9324029],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_0244a84cfe0cf9776f8a572e5167c3bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9d8932bd72578b8545f529dfcf8cbda7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_437894131a59f26a5b4097870dd93060 = $(`<div id="html_437894131a59f26a5b4097870dd93060" style="width: 100.0%; height: 100.0%;">     <b>Hotel Jai Krishna</b><br>     Category: restaurant<br>     Cuisine: Not available<br>     Phone: +91 96880 88072     </div>`)[0];
+                popup_9d8932bd72578b8545f529dfcf8cbda7.setContent(html_437894131a59f26a5b4097870dd93060);
+            
+        
+
+        marker_0c41fd581e2ed778f175525363f26681.bindPopup(popup_9d8932bd72578b8545f529dfcf8cbda7)
+        ;
+
+        
+    
+    
+            marker_0c41fd581e2ed778f175525363f26681.bindTooltip(
+                `<div>
+                     Hotel Jai Krishna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0c41fd581e2ed778f175525363f26681.setIcon(icon_0244a84cfe0cf9776f8a572e5167c3bd);
+            
+    
+            var marker_7405a9917c512f1eb6f0a8a20b143c3f = L.marker(
+                [11.0518609, 77.9241658],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_58cf351c9e28823dd08ebce04c4032e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82d2c09c870ebb67319d71cd69e6fd53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f377467b20f00b1a1461cc5bc031c36f = $(`<div id="html_f377467b20f00b1a1461cc5bc031c36f" style="width: 100.0%; height: 100.0%;">     <b>HOTEL KARUPPANNA</b><br>     Category: restaurant<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_82d2c09c870ebb67319d71cd69e6fd53.setContent(html_f377467b20f00b1a1461cc5bc031c36f);
+            
+        
+
+        marker_7405a9917c512f1eb6f0a8a20b143c3f.bindPopup(popup_82d2c09c870ebb67319d71cd69e6fd53)
+        ;
+
+        
+    
+    
+            marker_7405a9917c512f1eb6f0a8a20b143c3f.bindTooltip(
+                `<div>
+                     HOTEL KARUPPANNA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7405a9917c512f1eb6f0a8a20b143c3f.setIcon(icon_58cf351c9e28823dd08ebce04c4032e3);
+            
+    
+            var marker_64cedf9a112f66dcf8ddc89a3c54b283 = L.marker(
+                [10.961041, 78.0859736],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_3a666f9125c89beedd4a756d2f7090a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2c198004c1526ad9864b5687e41b165 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abdd627dc09a7e4ccd1edf3748f3313d = $(`<div id="html_abdd627dc09a7e4ccd1edf3748f3313d" style="width: 100.0%; height: 100.0%;">     <b>Archana Hotel</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_c2c198004c1526ad9864b5687e41b165.setContent(html_abdd627dc09a7e4ccd1edf3748f3313d);
+            
+        
+
+        marker_64cedf9a112f66dcf8ddc89a3c54b283.bindPopup(popup_c2c198004c1526ad9864b5687e41b165)
+        ;
+
+        
+    
+    
+            marker_64cedf9a112f66dcf8ddc89a3c54b283.bindTooltip(
+                `<div>
+                     Archana Hotel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_64cedf9a112f66dcf8ddc89a3c54b283.setIcon(icon_3a666f9125c89beedd4a756d2f7090a7);
+            
+    
+            var marker_2cfe6396db1ac1b9f3af06dc56f70ede = L.marker(
+                [10.960216, 78.0787331],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_54055fb8aadacf6c1b4d10bcc450f0a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36d6a88fbe84ddc270cfcc9bf38f57a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fbb4d557220b7032de7ac79d4779d77 = $(`<div id="html_5fbb4d557220b7032de7ac79d4779d77" style="width: 100.0%; height: 100.0%;">     <b>Madhura Mess</b><br>     Category: fast_food<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_36d6a88fbe84ddc270cfcc9bf38f57a7.setContent(html_5fbb4d557220b7032de7ac79d4779d77);
+            
+        
+
+        marker_2cfe6396db1ac1b9f3af06dc56f70ede.bindPopup(popup_36d6a88fbe84ddc270cfcc9bf38f57a7)
+        ;
+
+        
+    
+    
+            marker_2cfe6396db1ac1b9f3af06dc56f70ede.bindTooltip(
+                `<div>
+                     Madhura Mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2cfe6396db1ac1b9f3af06dc56f70ede.setIcon(icon_54055fb8aadacf6c1b4d10bcc450f0a8);
+            
+    
+            var marker_7dca0e86c4ab242b75ff273e63d47f61 = L.marker(
+                [10.9594305, 78.0764812],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_1a7eea77a84f9650c2336efebb638b39 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a7529c4ba9eb7f5fe5de3528476a362 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82b1dcbc1edc18fa9e9f799b152c99fa = $(`<div id="html_82b1dcbc1edc18fa9e9f799b152c99fa" style="width: 100.0%; height: 100.0%;">     <b>Adyar Ananda Bhavan</b><br>     Category: restaurant<br>     Cuisine: regional<br>     Phone: +91 94868 96999     </div>`)[0];
+                popup_4a7529c4ba9eb7f5fe5de3528476a362.setContent(html_82b1dcbc1edc18fa9e9f799b152c99fa);
+            
+        
+
+        marker_7dca0e86c4ab242b75ff273e63d47f61.bindPopup(popup_4a7529c4ba9eb7f5fe5de3528476a362)
+        ;
+
+        
+    
+    
+            marker_7dca0e86c4ab242b75ff273e63d47f61.bindTooltip(
+                `<div>
+                     Adyar Ananda Bhavan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7dca0e86c4ab242b75ff273e63d47f61.setIcon(icon_1a7eea77a84f9650c2336efebb638b39);
+            
+    
+            var marker_a438a5383c42fafc8523aa9612f114ba = L.marker(
+                [10.9291561, 78.055229],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_386d10502e89246362aa99c4ada85151 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe272db1f3e6f1cee2b9ab08355cae17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac62c2e39c7c38cc90722aaebfc59d3f = $(`<div id="html_ac62c2e39c7c38cc90722aaebfc59d3f" style="width: 100.0%; height: 100.0%;">     <b>Hotel SSS</b><br>     Category: restaurant<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_fe272db1f3e6f1cee2b9ab08355cae17.setContent(html_ac62c2e39c7c38cc90722aaebfc59d3f);
+            
+        
+
+        marker_a438a5383c42fafc8523aa9612f114ba.bindPopup(popup_fe272db1f3e6f1cee2b9ab08355cae17)
+        ;
+
+        
+    
+    
+            marker_a438a5383c42fafc8523aa9612f114ba.bindTooltip(
+                `<div>
+                     Hotel SSS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a438a5383c42fafc8523aa9612f114ba.setIcon(icon_386d10502e89246362aa99c4ada85151);
+            
+    
+            var marker_dc43b3d8eb85e302a95f799d953a25d1 = L.marker(
+                [10.9288941, 78.0547191],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_1f277e36851be0305df311f9cb963529 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75d5a0a1cc70ceb20fdb3c8e7f6e68c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c88619cd57926e9f6fc2fb531c31b03 = $(`<div id="html_5c88619cd57926e9f6fc2fb531c31b03" style="width: 100.0%; height: 100.0%;">     <b>Annai Mess</b><br>     Category: restaurant<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_75d5a0a1cc70ceb20fdb3c8e7f6e68c2.setContent(html_5c88619cd57926e9f6fc2fb531c31b03);
+            
+        
+
+        marker_dc43b3d8eb85e302a95f799d953a25d1.bindPopup(popup_75d5a0a1cc70ceb20fdb3c8e7f6e68c2)
+        ;
+
+        
+    
+    
+            marker_dc43b3d8eb85e302a95f799d953a25d1.bindTooltip(
+                `<div>
+                     Annai Mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dc43b3d8eb85e302a95f799d953a25d1.setIcon(icon_1f277e36851be0305df311f9cb963529);
+            
+    
+            var marker_ff49941464f3dd74bd52579880fb881d = L.marker(
+                [10.9611393, 78.0827623],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_ba77c38cc02914a8fe81d7940f3ecbcc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_695a29179c004018951d0e67cad4738f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f93cffaf4bdbe09b157ee91b8353cd0c = $(`<div id="html_f93cffaf4bdbe09b157ee91b8353cd0c" style="width: 100.0%; height: 100.0%;">     <b>Hotel Hemala</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: +914324262922     </div>`)[0];
+                popup_695a29179c004018951d0e67cad4738f.setContent(html_f93cffaf4bdbe09b157ee91b8353cd0c);
+            
+        
+
+        marker_ff49941464f3dd74bd52579880fb881d.bindPopup(popup_695a29179c004018951d0e67cad4738f)
+        ;
+
+        
+    
+    
+            marker_ff49941464f3dd74bd52579880fb881d.bindTooltip(
+                `<div>
+                     Hotel Hemala
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ff49941464f3dd74bd52579880fb881d.setIcon(icon_ba77c38cc02914a8fe81d7940f3ecbcc);
+            
+    
+            var marker_2b8d7cdb6142816e2ba929767a5653e7 = L.marker(
+                [10.9626193, 78.0614777],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_c0a1a1114d8fd59f9d96a615e6957dc3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cdcb78155087754ac5bdf661172d5701 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc88b1700267d7af37f2f451d1a7ec19 = $(`<div id="html_cc88b1700267d7af37f2f451d1a7ec19" style="width: 100.0%; height: 100.0%;">     <b>muthu mess</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_cdcb78155087754ac5bdf661172d5701.setContent(html_cc88b1700267d7af37f2f451d1a7ec19);
+            
+        
+
+        marker_2b8d7cdb6142816e2ba929767a5653e7.bindPopup(popup_cdcb78155087754ac5bdf661172d5701)
+        ;
+
+        
+    
+    
+            marker_2b8d7cdb6142816e2ba929767a5653e7.bindTooltip(
+                `<div>
+                     muthu mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2b8d7cdb6142816e2ba929767a5653e7.setIcon(icon_c0a1a1114d8fd59f9d96a615e6957dc3);
+            
+    
+            var marker_5e23ab11c72da36058f0d8a8cbb78ce5 = L.marker(
+                [10.9549813, 78.0598726],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_e4e210e84e0e1dabbcfce1df79e54587 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84a566c093e1352c6a0eae3db20d4c17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0667473eda660453c8e8b0a0c7174ee3 = $(`<div id="html_0667473eda660453c8e8b0a0c7174ee3" style="width: 100.0%; height: 100.0%;">     <b>junior kuppanna</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_84a566c093e1352c6a0eae3db20d4c17.setContent(html_0667473eda660453c8e8b0a0c7174ee3);
+            
+        
+
+        marker_5e23ab11c72da36058f0d8a8cbb78ce5.bindPopup(popup_84a566c093e1352c6a0eae3db20d4c17)
+        ;
+
+        
+    
+    
+            marker_5e23ab11c72da36058f0d8a8cbb78ce5.bindTooltip(
+                `<div>
+                     junior kuppanna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5e23ab11c72da36058f0d8a8cbb78ce5.setIcon(icon_e4e210e84e0e1dabbcfce1df79e54587);
+            
+    
+            var marker_de40936fcdc7a7dc171215ff1a59d952 = L.marker(
+                [10.9508614, 78.058939],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_f734eb345b0df9e800dfb349bf199e61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3c50a5bf7fff75b89fe957f6b17bb4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad09506038398cc6ad733982cf9f3eda = $(`<div id="html_ad09506038398cc6ad733982cf9f3eda" style="width: 100.0%; height: 100.0%;">     <b>karthick mess</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_e3c50a5bf7fff75b89fe957f6b17bb4a.setContent(html_ad09506038398cc6ad733982cf9f3eda);
+            
+        
+
+        marker_de40936fcdc7a7dc171215ff1a59d952.bindPopup(popup_e3c50a5bf7fff75b89fe957f6b17bb4a)
+        ;
+
+        
+    
+    
+            marker_de40936fcdc7a7dc171215ff1a59d952.bindTooltip(
+                `<div>
+                     karthick mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_de40936fcdc7a7dc171215ff1a59d952.setIcon(icon_f734eb345b0df9e800dfb349bf199e61);
+            
+    
+            var marker_505c8311d1398522938b4b5727c0ba5f = L.marker(
+                [10.9611864, 78.0667735],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_22e3ebe85473c2002d08ff6476157c81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_826df6f8bee84e227c683281c76682d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89470aba807dab70756818554c4f6e6f = $(`<div id="html_89470aba807dab70756818554c4f6e6f" style="width: 100.0%; height: 100.0%;">     <b>dindigul velu briyani</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_826df6f8bee84e227c683281c76682d0.setContent(html_89470aba807dab70756818554c4f6e6f);
+            
+        
+
+        marker_505c8311d1398522938b4b5727c0ba5f.bindPopup(popup_826df6f8bee84e227c683281c76682d0)
+        ;
+
+        
+    
+    
+            marker_505c8311d1398522938b4b5727c0ba5f.bindTooltip(
+                `<div>
+                     dindigul velu briyani
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_505c8311d1398522938b4b5727c0ba5f.setIcon(icon_22e3ebe85473c2002d08ff6476157c81);
+            
+    
+            var marker_81414a95639daeb459f24538b9887840 = L.marker(
+                [10.9590008, 78.0757663],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_2c1c109f936cb048ade3ed335c508f22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_46993ef2a6735ed2efbe5719aefe9877 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf45fab2e5df81aed884ce5876267a1e = $(`<div id="html_bf45fab2e5df81aed884ce5876267a1e" style="width: 100.0%; height: 100.0%;">     <b>dindigul thalappakatti</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_46993ef2a6735ed2efbe5719aefe9877.setContent(html_bf45fab2e5df81aed884ce5876267a1e);
+            
+        
+
+        marker_81414a95639daeb459f24538b9887840.bindPopup(popup_46993ef2a6735ed2efbe5719aefe9877)
+        ;
+
+        
+    
+    
+            marker_81414a95639daeb459f24538b9887840.bindTooltip(
+                `<div>
+                     dindigul thalappakatti
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_81414a95639daeb459f24538b9887840.setIcon(icon_2c1c109f936cb048ade3ed335c508f22);
+            
+    
+            var marker_a991eecc44b68bda1433cd575c191031 = L.marker(
+                [10.960503, 78.0709315],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_51b1b99bd292509255f2c9a304713640 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_432a21560211ac7360e4f63df94fd247 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baea3af88c3f0e7dc71701f8179aceba = $(`<div id="html_baea3af88c3f0e7dc71701f8179aceba" style="width: 100.0%; height: 100.0%;">     <b>karur tiffin centre</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_432a21560211ac7360e4f63df94fd247.setContent(html_baea3af88c3f0e7dc71701f8179aceba);
+            
+        
+
+        marker_a991eecc44b68bda1433cd575c191031.bindPopup(popup_432a21560211ac7360e4f63df94fd247)
+        ;
+
+        
+    
+    
+            marker_a991eecc44b68bda1433cd575c191031.bindTooltip(
+                `<div>
+                     karur tiffin centre
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a991eecc44b68bda1433cd575c191031.setIcon(icon_51b1b99bd292509255f2c9a304713640);
+            
+    
+            var marker_3b115130f6e854c0d6b5217f34cca903 = L.marker(
+                [10.9596444, 78.0736905],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_3af5a823d958937bfbd9debe30c87d7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_654728684b0282a028790a017832fa5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c0eaac5fecae37bf44430e72614ae8a = $(`<div id="html_1c0eaac5fecae37bf44430e72614ae8a" style="width: 100.0%; height: 100.0%;">     <b>ks mess</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_654728684b0282a028790a017832fa5a.setContent(html_1c0eaac5fecae37bf44430e72614ae8a);
+            
+        
+
+        marker_3b115130f6e854c0d6b5217f34cca903.bindPopup(popup_654728684b0282a028790a017832fa5a)
+        ;
+
+        
+    
+    
+            marker_3b115130f6e854c0d6b5217f34cca903.bindTooltip(
+                `<div>
+                     ks mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3b115130f6e854c0d6b5217f34cca903.setIcon(icon_3af5a823d958937bfbd9debe30c87d7e);
+            
+    
+            var marker_258ce81d1564293cb9e38293743b689a = L.marker(
+                [10.9678629, 78.0616713],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_7ac845b1dd0134f21b67a55934f47c0c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53e389e4dc38672e7d6d405d4e2a1c0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07fcd665787e93587cb7f608085065d5 = $(`<div id="html_07fcd665787e93587cb7f608085065d5" style="width: 100.0%; height: 100.0%;">     <b>sri ganapathi mess</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_53e389e4dc38672e7d6d405d4e2a1c0d.setContent(html_07fcd665787e93587cb7f608085065d5);
+            
+        
+
+        marker_258ce81d1564293cb9e38293743b689a.bindPopup(popup_53e389e4dc38672e7d6d405d4e2a1c0d)
+        ;
+
+        
+    
+    
+            marker_258ce81d1564293cb9e38293743b689a.bindTooltip(
+                `<div>
+                     sri ganapathi mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_258ce81d1564293cb9e38293743b689a.setIcon(icon_7ac845b1dd0134f21b67a55934f47c0c);
+            
+    
+            var marker_71d646a3edee1273ab248a2d9db67d27 = L.marker(
+                [10.9676127, 78.0624223],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_f404324613af234bb1b3d329042584e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83adbb590314ff83bab380d84354824f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcb2d771b186d95bd6d7c7c83fe66972 = $(`<div id="html_dcb2d771b186d95bd6d7c7c83fe66972" style="width: 100.0%; height: 100.0%;">     <b>aasi tea stall</b><br>     Category: cafe<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_83adbb590314ff83bab380d84354824f.setContent(html_dcb2d771b186d95bd6d7c7c83fe66972);
+            
+        
+
+        marker_71d646a3edee1273ab248a2d9db67d27.bindPopup(popup_83adbb590314ff83bab380d84354824f)
+        ;
+
+        
+    
+    
+            marker_71d646a3edee1273ab248a2d9db67d27.bindTooltip(
+                `<div>
+                     aasi tea stall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_71d646a3edee1273ab248a2d9db67d27.setIcon(icon_f404324613af234bb1b3d329042584e5);
+            
+    
+            var marker_e0a11699e153a122dc211d6de8492b2f = L.marker(
+                [10.9631479, 78.0590545],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_c4d306962f78fe7e19de2a8fa7de4650 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_25442a878f68ac15dc4d174ecdb27baa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e6364f83f646eee002d4d7475e8263a = $(`<div id="html_6e6364f83f646eee002d4d7475e8263a" style="width: 100.0%; height: 100.0%;">     <b>sri sakthi mess</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_25442a878f68ac15dc4d174ecdb27baa.setContent(html_6e6364f83f646eee002d4d7475e8263a);
+            
+        
+
+        marker_e0a11699e153a122dc211d6de8492b2f.bindPopup(popup_25442a878f68ac15dc4d174ecdb27baa)
+        ;
+
+        
+    
+    
+            marker_e0a11699e153a122dc211d6de8492b2f.bindTooltip(
+                `<div>
+                     sri sakthi mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e0a11699e153a122dc211d6de8492b2f.setIcon(icon_c4d306962f78fe7e19de2a8fa7de4650);
+            
+    
+            var marker_c7bf04d7ce8a97c0bdbff9de232f7ee7 = L.marker(
+                [10.9664054, 78.0516404],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_f73e0cb549c126da6352a1a7855dcfcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b708efd8551b3d88a8d2ff2159974675 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6fe349b5cbb39cd96d17a5cdbcc35eb = $(`<div id="html_a6fe349b5cbb39cd96d17a5cdbcc35eb" style="width: 100.0%; height: 100.0%;">     <b>thiruppathi mess</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_b708efd8551b3d88a8d2ff2159974675.setContent(html_a6fe349b5cbb39cd96d17a5cdbcc35eb);
+            
+        
+
+        marker_c7bf04d7ce8a97c0bdbff9de232f7ee7.bindPopup(popup_b708efd8551b3d88a8d2ff2159974675)
+        ;
+
+        
+    
+    
+            marker_c7bf04d7ce8a97c0bdbff9de232f7ee7.bindTooltip(
+                `<div>
+                     thiruppathi mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c7bf04d7ce8a97c0bdbff9de232f7ee7.setIcon(icon_f73e0cb549c126da6352a1a7855dcfcd);
+            
+    
+            var marker_67ab0df7c9e32e1c0105589ad5ddfd3c = L.marker(
+                [10.9665251, 78.0513985],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_eeb81facbee84b4856defc6f2fddd8f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed6aa48020dc0cfdbdceed46430d5ea0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6f7afa40a04cfefc2d540b915c1199b = $(`<div id="html_a6f7afa40a04cfefc2d540b915c1199b" style="width: 100.0%; height: 100.0%;">     <b>ganapathy mess</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_ed6aa48020dc0cfdbdceed46430d5ea0.setContent(html_a6f7afa40a04cfefc2d540b915c1199b);
+            
+        
+
+        marker_67ab0df7c9e32e1c0105589ad5ddfd3c.bindPopup(popup_ed6aa48020dc0cfdbdceed46430d5ea0)
+        ;
+
+        
+    
+    
+            marker_67ab0df7c9e32e1c0105589ad5ddfd3c.bindTooltip(
+                `<div>
+                     ganapathy mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_67ab0df7c9e32e1c0105589ad5ddfd3c.setIcon(icon_eeb81facbee84b4856defc6f2fddd8f0);
+            
+    
+            var marker_64a0ace195335554709288da9ac18d3a = L.marker(
+                [10.9637461, 78.0483914],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_1f681fd002699d17e6cea38f0ba9369a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_775e7bdbf2b0cfbe3724c4a7db174411 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f83081f755f40aa4a1a4782f37496bc = $(`<div id="html_6f83081f755f40aa4a1a4782f37496bc" style="width: 100.0%; height: 100.0%;">     <b>Kongu mess</b><br>     Category: restaurant<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_775e7bdbf2b0cfbe3724c4a7db174411.setContent(html_6f83081f755f40aa4a1a4782f37496bc);
+            
+        
+
+        marker_64a0ace195335554709288da9ac18d3a.bindPopup(popup_775e7bdbf2b0cfbe3724c4a7db174411)
+        ;
+
+        
+    
+    
+            marker_64a0ace195335554709288da9ac18d3a.bindTooltip(
+                `<div>
+                     Kongu mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_64a0ace195335554709288da9ac18d3a.setIcon(icon_1f681fd002699d17e6cea38f0ba9369a);
+            
+    
+            var marker_ca4ced0cc4567b65d86a93ed16167ded = L.marker(
+                [10.9638334, 78.0487537],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_864623f5c95e30af8e8c5a07012742e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09c94a45b5a8d27267da6e218cd46ce4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d031a61de185960288b3890dbecfcb8 = $(`<div id="html_1d031a61de185960288b3890dbecfcb8" style="width: 100.0%; height: 100.0%;">     <b>new karur biriyani corner</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_09c94a45b5a8d27267da6e218cd46ce4.setContent(html_1d031a61de185960288b3890dbecfcb8);
+            
+        
+
+        marker_ca4ced0cc4567b65d86a93ed16167ded.bindPopup(popup_09c94a45b5a8d27267da6e218cd46ce4)
+        ;
+
+        
+    
+    
+            marker_ca4ced0cc4567b65d86a93ed16167ded.bindTooltip(
+                `<div>
+                     new karur biriyani corner
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ca4ced0cc4567b65d86a93ed16167ded.setIcon(icon_864623f5c95e30af8e8c5a07012742e5);
+            
+    
+            var marker_6e82feecfc1452f2456c73b8fcd956e1 = L.marker(
+                [10.9638706, 78.047431],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_b5b811f3799ebe16a8b0d9b9f4e228e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44ef637650f49e999f786313dbdaae2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91027d3399dc4b36c91694814d7b1792 = $(`<div id="html_91027d3399dc4b36c91694814d7b1792" style="width: 100.0%; height: 100.0%;">     <b>ganapathy mess</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_44ef637650f49e999f786313dbdaae2e.setContent(html_91027d3399dc4b36c91694814d7b1792);
+            
+        
+
+        marker_6e82feecfc1452f2456c73b8fcd956e1.bindPopup(popup_44ef637650f49e999f786313dbdaae2e)
+        ;
+
+        
+    
+    
+            marker_6e82feecfc1452f2456c73b8fcd956e1.bindTooltip(
+                `<div>
+                     ganapathy mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6e82feecfc1452f2456c73b8fcd956e1.setIcon(icon_b5b811f3799ebe16a8b0d9b9f4e228e8);
+            
+    
+            var marker_7cd0209edbfdc845d7fdf966d8b70db4 = L.marker(
+                [10.9642789, 78.0471522],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_abfcf566c0256d1330c0c7f35e28074d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_64d9525f5d380d41bdc7906c91c209ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0edda46efaf9ddc2e868815c1534e191 = $(`<div id="html_0edda46efaf9ddc2e868815c1534e191" style="width: 100.0%; height: 100.0%;">     <b>shri mahalaxmi mess</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_64d9525f5d380d41bdc7906c91c209ff.setContent(html_0edda46efaf9ddc2e868815c1534e191);
+            
+        
+
+        marker_7cd0209edbfdc845d7fdf966d8b70db4.bindPopup(popup_64d9525f5d380d41bdc7906c91c209ff)
+        ;
+
+        
+    
+    
+            marker_7cd0209edbfdc845d7fdf966d8b70db4.bindTooltip(
+                `<div>
+                     shri mahalaxmi mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7cd0209edbfdc845d7fdf966d8b70db4.setIcon(icon_abfcf566c0256d1330c0c7f35e28074d);
+            
+    
+            var marker_0e771924bf7743e948c10fcdf4e3ec9d = L.marker(
+                [10.9637284, 78.0469519],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_98067609b57f04cc94d55bdbc9422811 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9f89e7053cd23600656f1162a645f994 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e70346bb30f51f969c40364c15f3cc2 = $(`<div id="html_2e70346bb30f51f969c40364c15f3cc2" style="width: 100.0%; height: 100.0%;">     <b>mess</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_9f89e7053cd23600656f1162a645f994.setContent(html_2e70346bb30f51f969c40364c15f3cc2);
+            
+        
+
+        marker_0e771924bf7743e948c10fcdf4e3ec9d.bindPopup(popup_9f89e7053cd23600656f1162a645f994)
+        ;
+
+        
+    
+    
+            marker_0e771924bf7743e948c10fcdf4e3ec9d.bindTooltip(
+                `<div>
+                     mess
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0e771924bf7743e948c10fcdf4e3ec9d.setIcon(icon_98067609b57f04cc94d55bdbc9422811);
+            
+    
+            var marker_11d68d5724a6f16756af187a5b39c8d6 = L.marker(
+                [10.963981, 78.0456286],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_939b5690cc9222bf2351f52cbcc58dec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92e86651872eaecbabad1eebd357d5b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50fe4300384fc961d7126f4cf8cfc2d0 = $(`<div id="html_50fe4300384fc961d7126f4cf8cfc2d0" style="width: 100.0%; height: 100.0%;">     <b>ATHIRASA KADAI</b><br>     Category: fast_food<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_92e86651872eaecbabad1eebd357d5b5.setContent(html_50fe4300384fc961d7126f4cf8cfc2d0);
+            
+        
+
+        marker_11d68d5724a6f16756af187a5b39c8d6.bindPopup(popup_92e86651872eaecbabad1eebd357d5b5)
+        ;
+
+        
+    
+    
+            marker_11d68d5724a6f16756af187a5b39c8d6.bindTooltip(
+                `<div>
+                     ATHIRASA KADAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_11d68d5724a6f16756af187a5b39c8d6.setIcon(icon_939b5690cc9222bf2351f52cbcc58dec);
+            
+    
+            var marker_ec67aa3d44da41aa98985a31a5ac2047 = L.marker(
+                [10.963354, 78.0426686],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_13d8186e659f1655e45cbd7b20c43d3a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cded4d956ae3af816fcc20c8023a1d94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b84a75cdba7321c7044c0df3c5cd38e1 = $(`<div id="html_b84a75cdba7321c7044c0df3c5cd38e1" style="width: 100.0%; height: 100.0%;">     <b>GOUNDAR MESS</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_cded4d956ae3af816fcc20c8023a1d94.setContent(html_b84a75cdba7321c7044c0df3c5cd38e1);
+            
+        
+
+        marker_ec67aa3d44da41aa98985a31a5ac2047.bindPopup(popup_cded4d956ae3af816fcc20c8023a1d94)
+        ;
+
+        
+    
+    
+            marker_ec67aa3d44da41aa98985a31a5ac2047.bindTooltip(
+                `<div>
+                     GOUNDAR MESS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ec67aa3d44da41aa98985a31a5ac2047.setIcon(icon_13d8186e659f1655e45cbd7b20c43d3a);
+            
+    
+            var marker_30533dcbb09c698baf728852c307830c = L.marker(
+                [10.9630897, 78.0395375],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_b87cdb3a8af434487cc3f217a3602bca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68bd372459522e72c68d97fadc4eefc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cc237b5a0e591150242311c238c66a8 = $(`<div id="html_4cc237b5a0e591150242311c238c66a8" style="width: 100.0%; height: 100.0%;">     <b>hotel M.S</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_68bd372459522e72c68d97fadc4eefc8.setContent(html_4cc237b5a0e591150242311c238c66a8);
+            
+        
+
+        marker_30533dcbb09c698baf728852c307830c.bindPopup(popup_68bd372459522e72c68d97fadc4eefc8)
+        ;
+
+        
+    
+    
+            marker_30533dcbb09c698baf728852c307830c.bindTooltip(
+                `<div>
+                     hotel M.S
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30533dcbb09c698baf728852c307830c.setIcon(icon_b87cdb3a8af434487cc3f217a3602bca);
+            
+    
+            var marker_b2cb175c98a3cb4d8494f3f253636a89 = L.marker(
+                [10.9626788, 78.0390524],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_f70000e900592abc0dc1d501bd80b029 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bbfc69ae272a63c7dcb072003290ea77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2da877c8d2bf38a5fcd934ba3490b31 = $(`<div id="html_f2da877c8d2bf38a5fcd934ba3490b31" style="width: 100.0%; height: 100.0%;">     <b>bishmi hotel</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_bbfc69ae272a63c7dcb072003290ea77.setContent(html_f2da877c8d2bf38a5fcd934ba3490b31);
+            
+        
+
+        marker_b2cb175c98a3cb4d8494f3f253636a89.bindPopup(popup_bbfc69ae272a63c7dcb072003290ea77)
+        ;
+
+        
+    
+    
+            marker_b2cb175c98a3cb4d8494f3f253636a89.bindTooltip(
+                `<div>
+                     bishmi hotel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b2cb175c98a3cb4d8494f3f253636a89.setIcon(icon_f70000e900592abc0dc1d501bd80b029);
+            
+    
+            var marker_0cdb627e8802db647ed71805b91936a0 = L.marker(
+                [11.0745341, 78.0090448],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_097d03602fb65695a47d805dcc17c4d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2996b69cebc25a3054f7dad02c0ee815 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f30c5aed6fda99b5455502f1a7593601 = $(`<div id="html_f30c5aed6fda99b5455502f1a7593601" style="width: 100.0%; height: 100.0%;">     <b>jegan</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_2996b69cebc25a3054f7dad02c0ee815.setContent(html_f30c5aed6fda99b5455502f1a7593601);
+            
+        
+
+        marker_0cdb627e8802db647ed71805b91936a0.bindPopup(popup_2996b69cebc25a3054f7dad02c0ee815)
+        ;
+
+        
+    
+    
+            marker_0cdb627e8802db647ed71805b91936a0.bindTooltip(
+                `<div>
+                     jegan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0cdb627e8802db647ed71805b91936a0.setIcon(icon_097d03602fb65695a47d805dcc17c4d8);
+            
+    
+            var marker_b8cfba67e364c1264b5e5fa2b0486942 = L.marker(
+                [11.0752321, 78.0079304],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_d9e9c975368dcaeae998e27c1f0c5393 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3c704630bfcbdf9e9a5628e34d449b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f77a8424ea3f3454db211a52e5383e9 = $(`<div id="html_4f77a8424ea3f3454db211a52e5383e9" style="width: 100.0%; height: 100.0%;">     <b>G V N hotel</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_a3c704630bfcbdf9e9a5628e34d449b6.setContent(html_4f77a8424ea3f3454db211a52e5383e9);
+            
+        
+
+        marker_b8cfba67e364c1264b5e5fa2b0486942.bindPopup(popup_a3c704630bfcbdf9e9a5628e34d449b6)
+        ;
+
+        
+    
+    
+            marker_b8cfba67e364c1264b5e5fa2b0486942.bindTooltip(
+                `<div>
+                     G V N hotel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b8cfba67e364c1264b5e5fa2b0486942.setIcon(icon_d9e9c975368dcaeae998e27c1f0c5393);
+            
+    
+            var marker_c00b635a1d52a5cab71d4010a052a9e3 = L.marker(
+                [11.0746392, 78.002077],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_149fc292f6a6835ac88fcf493acb1c08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d38ebe461f47fd22a115cd27b1bd06c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e8b16662c705a1f718b79f32bbef2da = $(`<div id="html_1e8b16662c705a1f718b79f32bbef2da" style="width: 100.0%; height: 100.0%;">     <b>parotta shop</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_d38ebe461f47fd22a115cd27b1bd06c0.setContent(html_1e8b16662c705a1f718b79f32bbef2da);
+            
+        
+
+        marker_c00b635a1d52a5cab71d4010a052a9e3.bindPopup(popup_d38ebe461f47fd22a115cd27b1bd06c0)
+        ;
+
+        
+    
+    
+            marker_c00b635a1d52a5cab71d4010a052a9e3.bindTooltip(
+                `<div>
+                     parotta shop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c00b635a1d52a5cab71d4010a052a9e3.setIcon(icon_149fc292f6a6835ac88fcf493acb1c08);
+            
+    
+            var marker_b3ada49a76a9fb4f465a241148ef93be = L.marker(
+                [11.0749968, 78.0018767],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_4b6947810152039cd7d16879087d6e95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c167fd001abc5623c342c206dd789813 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9b758de0d6e05d4a63266f34c98f65e = $(`<div id="html_c9b758de0d6e05d4a63266f34c98f65e" style="width: 100.0%; height: 100.0%;">     <b>jill jill jigarthanda</b><br>     Category: fast_food<br>     Cuisine: juice<br>     Phone: Not available     </div>`)[0];
+                popup_c167fd001abc5623c342c206dd789813.setContent(html_c9b758de0d6e05d4a63266f34c98f65e);
+            
+        
+
+        marker_b3ada49a76a9fb4f465a241148ef93be.bindPopup(popup_c167fd001abc5623c342c206dd789813)
+        ;
+
+        
+    
+    
+            marker_b3ada49a76a9fb4f465a241148ef93be.bindTooltip(
+                `<div>
+                     jill jill jigarthanda
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b3ada49a76a9fb4f465a241148ef93be.setIcon(icon_4b6947810152039cd7d16879087d6e95);
+            
+    
+            var marker_38db5aa77d83a08d6bc001604a7136a9 = L.marker(
+                [11.0751303, 78.0015573],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_7eba921791fe5c082bffd61fd003575a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e552bfac57a38b6821998d0f7da1c621 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba4de38276697b96d0cb21254d26c798 = $(`<div id="html_ba4de38276697b96d0cb21254d26c798" style="width: 100.0%; height: 100.0%;">     <b>welcome tea stall</b><br>     Category: cafe<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_e552bfac57a38b6821998d0f7da1c621.setContent(html_ba4de38276697b96d0cb21254d26c798);
+            
+        
+
+        marker_38db5aa77d83a08d6bc001604a7136a9.bindPopup(popup_e552bfac57a38b6821998d0f7da1c621)
+        ;
+
+        
+    
+    
+            marker_38db5aa77d83a08d6bc001604a7136a9.bindTooltip(
+                `<div>
+                     welcome tea stall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_38db5aa77d83a08d6bc001604a7136a9.setIcon(icon_7eba921791fe5c082bffd61fd003575a);
+            
+    
+            var marker_1dd0c5bf56690f3b8f94bb183f97e4ec = L.marker(
+                [10.9405458, 78.0911902],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_3f246fd5afc1cd500899a2df408ffe12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_414fcd137357c069188a66a40eb243af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc5c536206d287d067a6e2a92c37e406 = $(`<div id="html_bc5c536206d287d067a6e2a92c37e406" style="width: 100.0%; height: 100.0%;">     <b>sadhana tiffin stall</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_414fcd137357c069188a66a40eb243af.setContent(html_bc5c536206d287d067a6e2a92c37e406);
+            
+        
+
+        marker_1dd0c5bf56690f3b8f94bb183f97e4ec.bindPopup(popup_414fcd137357c069188a66a40eb243af)
+        ;
+
+        
+    
+    
+            marker_1dd0c5bf56690f3b8f94bb183f97e4ec.bindTooltip(
+                `<div>
+                     sadhana tiffin stall
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1dd0c5bf56690f3b8f94bb183f97e4ec.setIcon(icon_3f246fd5afc1cd500899a2df408ffe12);
+            
+    
+            var marker_342087b2dd8fb8d4486f408d32647dce = L.marker(
+                [10.9716162, 78.0949518],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_491b11183166c3dd7a7415eac574caca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2782150308fc4aa68c03b484edf2a61a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_746a7843fb5a82799712fbcf9edfc4f3 = $(`<div id="html_746a7843fb5a82799712fbcf9edfc4f3" style="width: 100.0%; height: 100.0%;">     <b>Amirtham Restaurent</b><br>     Category: restaurant<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_2782150308fc4aa68c03b484edf2a61a.setContent(html_746a7843fb5a82799712fbcf9edfc4f3);
+            
+        
+
+        marker_342087b2dd8fb8d4486f408d32647dce.bindPopup(popup_2782150308fc4aa68c03b484edf2a61a)
+        ;
+
+        
+    
+    
+            marker_342087b2dd8fb8d4486f408d32647dce.bindTooltip(
+                `<div>
+                     Amirtham Restaurent
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_342087b2dd8fb8d4486f408d32647dce.setIcon(icon_491b11183166c3dd7a7415eac574caca);
+            
+    
+            var marker_d2510d6626f9ea4970b983a7661a5002 = L.marker(
+                [10.9474655, 78.1040419],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_e325202cbb41e6a502359af93cd9ede3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ef426bb7f3c8b5968495af9fcb1e822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afe1b0f0f910e8cc8adf8957c3153db2 = $(`<div id="html_afe1b0f0f910e8cc8adf8957c3153db2" style="width: 100.0%; height: 100.0%;">     <b>Tandoori Tribes</b><br>     Category: restaurant<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_8ef426bb7f3c8b5968495af9fcb1e822.setContent(html_afe1b0f0f910e8cc8adf8957c3153db2);
+            
+        
+
+        marker_d2510d6626f9ea4970b983a7661a5002.bindPopup(popup_8ef426bb7f3c8b5968495af9fcb1e822)
+        ;
+
+        
+    
+    
+            marker_d2510d6626f9ea4970b983a7661a5002.bindTooltip(
+                `<div>
+                     Tandoori Tribes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d2510d6626f9ea4970b983a7661a5002.setIcon(icon_e325202cbb41e6a502359af93cd9ede3);
+            
+    
+            var marker_11689953b375af25eb52157d8e38a8d9 = L.marker(
+                [11.0121979, 78.0677181],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_0dc7fc1d8364655b49547cec34ffb31b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b68d1c6c3a8314060484c1d4d6eb3956 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2712232c77713421554e95efdf400453 = $(`<div id="html_2712232c77713421554e95efdf400453" style="width: 100.0%; height: 100.0%;">     <b>11 to 11</b><br>     Category: hotel<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_b68d1c6c3a8314060484c1d4d6eb3956.setContent(html_2712232c77713421554e95efdf400453);
+            
+        
+
+        marker_11689953b375af25eb52157d8e38a8d9.bindPopup(popup_b68d1c6c3a8314060484c1d4d6eb3956)
+        ;
+
+        
+    
+    
+            marker_11689953b375af25eb52157d8e38a8d9.bindTooltip(
+                `<div>
+                     11 to 11
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_11689953b375af25eb52157d8e38a8d9.setIcon(icon_0dc7fc1d8364655b49547cec34ffb31b);
+            
+    
+            var marker_14a09ca27f93a7f073c80c7547f8143e = L.marker(
+                [10.8869306, 78.0122616],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_129db3ed394dd643fcadeb8f4d170710 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60ee420fd37954776cffbd2fd410b12f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ae3b4938f8eedfc72b324bc5eb3c4c8 = $(`<div id="html_5ae3b4938f8eedfc72b324bc5eb3c4c8" style="width: 100.0%; height: 100.0%;">     <b>Sumathy Restaurant</b><br>     Category: restaurant<br>     Cuisine: Not available<br>     Phone: Not available     </div>`)[0];
+                popup_60ee420fd37954776cffbd2fd410b12f.setContent(html_5ae3b4938f8eedfc72b324bc5eb3c4c8);
+            
+        
+
+        marker_14a09ca27f93a7f073c80c7547f8143e.bindPopup(popup_60ee420fd37954776cffbd2fd410b12f)
+        ;
+
+        
+    
+    
+            marker_14a09ca27f93a7f073c80c7547f8143e.bindTooltip(
+                `<div>
+                     Sumathy Restaurant
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_14a09ca27f93a7f073c80c7547f8143e.setIcon(icon_129db3ed394dd643fcadeb8f4d170710);
+            
+    
+            var marker_579236654e609567425a67f3224e57a8 = L.marker(
+                [10.6905585, 77.9293553],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_688f615e6991ae01e2a0e838fc0b5210 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d193ed76082f25da9a9951463ac05cab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bab8d7d6b78142eb3d8ffda7505b1473 = $(`<div id="html_bab8d7d6b78142eb3d8ffda7505b1473" style="width: 100.0%; height: 100.0%;">     <b>Atchyaa Bakery & Hotel</b><br>     Category: restaurant<br>     Cuisine: indian<br>     Phone: Not available     </div>`)[0];
+                popup_d193ed76082f25da9a9951463ac05cab.setContent(html_bab8d7d6b78142eb3d8ffda7505b1473);
+            
+        
+
+        marker_579236654e609567425a67f3224e57a8.bindPopup(popup_d193ed76082f25da9a9951463ac05cab)
+        ;
+
+        
+    
+    
+            marker_579236654e609567425a67f3224e57a8.bindTooltip(
+                `<div>
+                     Atchyaa Bakery & Hotel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_579236654e609567425a67f3224e57a8.setIcon(icon_688f615e6991ae01e2a0e838fc0b5210);
+            
+    
+            var marker_3835f1703fbaeafe1c3418ec0d220fce = L.marker(
+                [10.7758778, 77.9192604],
+                {
+}
+            ).addTo(map_797d21b1d55652c995f73f8234b99bb2);
+        
+    
+            var icon_d5ac096b5e6cbb64d3cc9e97a1ce4dc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "cutlery",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae1674514b8c474eb33ee0ca6a020b2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01e1a86d6307e6824d766d118e51a559 = $(`<div id="html_01e1a86d6307e6824d766d118e51a559" style="width: 100.0%; height: 100.0%;">     <b>ஹோட்டல் அக்ஷயா வெஜ்</b><br>     Category: restaurant<br>     Cuisine: indian<br>     Phone: 096552 44577     </div>`)[0];
+                popup_ae1674514b8c474eb33ee0ca6a020b2a.setContent(html_01e1a86d6307e6824d766d118e51a559);
+            
+        
+
+        marker_3835f1703fbaeafe1c3418ec0d220fce.bindPopup(popup_ae1674514b8c474eb33ee0ca6a020b2a)
+        ;
+
+        
+    
+    
+            marker_3835f1703fbaeafe1c3418ec0d220fce.bindTooltip(
+                `<div>
+                     ஹோட்டல் அக்ஷயா வெஜ்
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3835f1703fbaeafe1c3418ec0d220fce.setIcon(icon_d5ac096b5e6cbb64d3cc9e97a1ce4dc2);
+            
+</script>
+</html>
